@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.example.tagcontainer.view.DynamicTagView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        app:containerColor="@color/colorPrimaryDark"
+        app:tagColor="@color/colorAccent"
+        app:tagDTextSize="14sp"
+        app:tagPaddingBottom="2dp"
+        app:tagPaddingLeft="10dp"
+        app:radius="100dp"
+        app:tagPaddingRight="10dp"
+        app:tagPaddingTop="2dp"
+        app:tagText="这是第一个tag，显示" />
+
+    <com.example.tagcontainer.view.DynamicTagView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        app:containerColor="@color/colorPrimaryDark"
+        app:tagColor="@color/colorPrimary"
+        app:tagDTextSize="16sp"
+        app:tagPaddingBottom="2dp"
+        app:tagPaddingLeft="10dp"
+        app:tagPaddingRight="10dp"
+        app:tagPaddingTop="2dp"
+        app:radius="6dp"
+        app:tagText="这是第二个tag" />
+
+    <com.example.tagcontainer.view.DynamicTagView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        app:containerColor="@color/black_overlay"
+        app:tagColor="@color/colorPrimary"
+        app:tagDTextSize="12sp"
+        app:tagPaddingBottom="2dp"
+        app:radius="0dp"
+        app:tagPaddingLeft="10dp"
+        app:tagPaddingRight="10dp"
+        app:tagPaddingTop="2dp"
+        app:tagText="第三" />
+</LinearLayout>
